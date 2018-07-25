@@ -25,8 +25,8 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
     }
 
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<List<Error>> handleOtherException(Exception e) {
-        Throwable cause = e;
+    public ResponseEntity<List<Error>> handleOtherException(Exception otherException) {
+        Throwable cause = otherException;
         while (cause != null) {
             for (ErrorWrapper<Throwable> wrapper : errorWrappers) {
                 if (wrapper.getType() == cause.getClass()) {
@@ -35,7 +35,7 @@ public class ApiExceptionHandler extends ResponseEntityExceptionHandler {
             }
             cause = cause.getCause();
         }
-        e.printStackTrace();
+        otherException.printStackTrace();
         return wrapErrors(Collections.singletonList(errorMapper.getDefault()));
     }
 
