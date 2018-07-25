@@ -4,9 +4,9 @@ import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.ToString;
 
-@RequiredArgsConstructor(staticName = "of")
 @Getter
 @ToString
+@RequiredArgsConstructor(staticName = "of")
 public class Error {
 
     private final String key;
