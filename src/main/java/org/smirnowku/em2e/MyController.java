@@ -1,8 +1,8 @@
-package org.kirill.api.error.test;
+package org.smirnowku.em2e;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.kirill.api.error.test.error.CoreException;
+import org.smirnowku.em2e.error.CoreException;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

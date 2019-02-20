@@ -1,6 +1,6 @@
-package org.kirill.api.error.test.error.wrapper;
+package org.smirnowku.em2e.error.wrapper;
 
-import org.kirill.api.error.test.error.CoreException;
+import org.smirnowku.em2e.error.CoreException;
 
 import java.util.List;
 

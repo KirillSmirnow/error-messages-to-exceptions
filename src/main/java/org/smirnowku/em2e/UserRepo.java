@@ -1,4 +1,4 @@
-package org.kirill.api.error.test;
+package org.smirnowku.em2e;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

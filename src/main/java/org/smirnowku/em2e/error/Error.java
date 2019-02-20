@@ -1,4 +1,4 @@
-package org.kirill.api.error.test.error;
+package org.smirnowku.em2e.error;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

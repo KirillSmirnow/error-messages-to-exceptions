@@ -1,4 +1,4 @@
-package org.kirill.api.error.test.util;
+package org.smirnowku.em2e;
 
 import java.util.Map;
 

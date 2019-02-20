@@ -1,4 +1,4 @@
-package org.kirill.api.error.test.error;
+package org.smirnowku.em2e.error;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import static org.kirill.api.error.test.util.ParameterizedStringFormatter.format;
+import static org.smirnowku.em2e.ParameterizedStringFormatter.format;
 
 @Component
 @RequiredArgsConstructor

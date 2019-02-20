@@ -1,7 +1,7 @@
-package org.kirill.api.error.test.error;
+package org.smirnowku.em2e.error;
 
 import lombok.RequiredArgsConstructor;
-import org.kirill.api.error.test.error.wrapper.ErrorWrapper;
+import org.smirnowku.em2e.error.wrapper.ErrorWrapper;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
